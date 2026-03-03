@@ -1,0 +1,28 @@
+.student-list {
+  display: flex;
+    flex-wrap: wrap;
+  align-items: center;
+    gap: 20px;
+}
+.student-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 15px;
+
+    &:hover{
+        background-color: rgb(242, 236, 236);
+        cursor:pointer
+    }
+}
+
+.student-item>p,.student-item>h3{
+    &:hover{
+            text-decoration: underline;
+        }
+}
